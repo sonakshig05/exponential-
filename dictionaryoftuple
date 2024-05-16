@@ -1,0 +1,12 @@
+# Create a dictionary where keys are tuples
+tuple_dict = {('John', 25): 'Engineer', ('Emma', 30): 'Doctor', ('Sam', 28): 'Teacher'}
+
+# Access values using keys
+print(tuple_dict[('John', 25)])  # Output: Engineer
+print(tuple_dict[('Sam', 28)])   # Output: Teacher
+
+# Add a new entry
+tuple_dict[('Anna', 35)] = 'Lawyer'
+
+# Print the updated dictionary
+print(tuple_dict)
