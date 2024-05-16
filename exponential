@@ -5,7 +5,6 @@ exponent = 3
 result = base ** exponent
 print(result)  
 
-
 # with power function
 base = 2
 exponent = 3
