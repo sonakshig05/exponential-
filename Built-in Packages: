@@ -1,0 +1,6 @@
+import math
+
+# Using built-in package
+radius = 5
+area = math.pi * radius**2
+print("Area of the circle with radius", radius, "is", area)
