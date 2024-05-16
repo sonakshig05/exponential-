@@ -1,0 +1,12 @@
+# Create a tuple
+my_tuple = (1, 2, 3, 'a', 'b', 'c')
+
+# Access elements
+first_element = my_tuple[0]
+second_element = my_tuple[1]
+print("First element:", first_element)
+print("Second element:", second_element)
+
+# Create a modified version of the tuple
+modified_tuple = my_tuple + ('x', 'y', 'z')
+print("Modified tuple:", modified_tuple)
