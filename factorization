@@ -1,0 +1,16 @@
+def factorize(n):
+    factors = []
+    divisor = 2  # Start with the smallest prime number
+    
+    while divisor <= n:
+        if n % divisor == 0:
+            factors.append(divisor)
+            n //= divisor
+        else:
+            divisor += 1
+    
+    return factors
+
+number = 84
+result = factorize(number)
+print("Prime factors of", number, "are:", result)
