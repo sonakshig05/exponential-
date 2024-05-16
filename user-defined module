@@ -1,0 +1,8 @@
+import utils
+
+# Using user-defined module
+message = utils.greet("John")
+result = utils.add(5, 3)
+
+print(message)
+print("Result of addition:", result)
