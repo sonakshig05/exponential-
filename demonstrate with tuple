@@ -1,0 +1,11 @@
+def is_first_element_even(t):
+    if isinstance(t, tuple) and len(t) > 0 and isinstance(t[0], int):  # Check if it's a non-empty tuple with an integer as the first element
+        if t[0] % 2 == 0:
+            return True
+    return False
+
+# Test the function
+print(is_first_element_even((4, 'apple', 9)))  # Output: True (4 is even)
+print(is_first_element_even((7, 'banana', 3)))  # Output: False (7 is not even)
+print(is_first_element_even(()))  # Output: False (Empty tuple)
+print(is_first_element_even(('hello',)))  # Output: False (Non-integer first element)
