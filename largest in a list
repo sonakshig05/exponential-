@@ -1,0 +1,15 @@
+# using max() func
+my_list = [10, 5, 8, 20, 15]
+largest_number = max(my_list)
+print("The largest number in the list is:", largest_number)
+
+# using a loop
+my_list = [10, 5, 8, 20, 15]
+largest_number = my_list[0]  # Initialize with the first element
+
+for num in my_list:
+    if num > largest_number:
+        largest_number = num
+
+print("The largest number in the list is:", largest_number)
+
