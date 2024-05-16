@@ -1,4 +1,4 @@
-from mypackage import module1, module2
+from mypackage import module1, module;
 
 message = module1.greet("John")
 result = module2.add(5, 3)
