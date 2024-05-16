@@ -1,0 +1,23 @@
+# Create a dictionary
+my_dict = {
+    'name': 'John',
+    'age': 30,
+    'occupation': 'Engineer'
+}
+
+# Access elements
+name = my_dict['name']
+age = my_dict['age']
+print("Name:", name)
+print("Age:", age)
+
+# Update values
+my_dict['age'] = 35  # Update age
+my_dict['city'] = 'New York'  # Add a new key-value pair
+print("Updated dictionary:", my_dict)
+
+# Delete entries
+del my_dict['occupation']  # Delete 'occupation' entry
+removed_value = my_dict.pop('city', None)  # Delete 'city' entry using pop and get removed value
+print("Dictionary after deletion:", my_dict)
+print("Removed value:", removed_value)
