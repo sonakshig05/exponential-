@@ -1,0 +1,8 @@
+# Define the number of rows for the pattern
+num_rows = 5
+
+# Nested loop to create the pattern
+for i in range(num_rows):  # Outer loop for rows
+    for j in range(i + 1):  # Inner loop for columns
+        print("*", end=" ")  # Print an asterisk with a space, end="" to print in the same line
+    print()  # Move to the next line after each row
