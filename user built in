@@ -1,0 +1,16 @@
+# main.py
+
+import geometry
+
+# Calculate areas
+square_area = geometry.area_square(5)
+rectangle_area = geometry.area_rectangle(4, 6)
+
+print("Area of square with side 5:", square_area)
+print("Area of rectangle with length 4 and width 6:", rectangle_area)
+
+# Using the math module to calculate circumference of a circle
+radius = 3
+circumference = 2 * geometry.area_circle(radius)
+
+print("Circumference of circle with radius 3:", circumference)
